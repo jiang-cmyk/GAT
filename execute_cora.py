@@ -171,4 +171,5 @@ with tf.Graph().as_default():
 
         print('Test loss:', ts_loss/ts_step, '; Test accuracy:', ts_acc/ts_step)
 
+        print("suchh")
         sess.close()
